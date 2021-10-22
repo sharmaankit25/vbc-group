@@ -65,12 +65,9 @@ export default function WorkSection() {
             </GridContainer>
           </form> */}
         </GridItem>
-        <GridItem className={classes.description} cs={12} sm={12} md={8}>
-          <h4>Whatsapp : 9811584773</h4>
-        </GridItem>
 
         <GridItem className={classes.description} cs={12} sm={12} md={8}>
-          <h4>Contact No : 9811584773</h4>
+          <h4 style={{ color: "black" }}><strong>Contact No : </strong><a style={{ color: "black" }} href="tel:9899844647"><strong>9899844647</strong></a>, <a style={{ color: "black" }} href="tel:9841444447"><strong>9841444447</strong></a></h4>
         </GridItem>
       </GridContainer>
     </div>
