@@ -3,7 +3,8 @@ import Router from "next/router";
 
 export default class _error extends Component {
   componentDidMount = () => {
-    Router.push("/components");
+    console.log('not found')
+    Router.push("/");
   };
 
   render() {

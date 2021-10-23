@@ -51,7 +51,6 @@ export default function HeaderLinks(props) {
             </Link>,
             <a
               href="/projects"
-              target="_blank"
               className={classes.dropdownLink}
             >
               Projects
@@ -60,13 +59,14 @@ export default function HeaderLinks(props) {
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmk-navbar"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <Icon className={classes.icons}>people</Icon>About Us</Button>
+        <Link href="/about">
+              <a className={classes.navLink}>About Us</a>
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link href="/contact">
+              <a className={classes.navLink}>Contact Us</a>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
