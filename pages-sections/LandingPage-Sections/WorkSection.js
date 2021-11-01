@@ -67,17 +67,28 @@ export default function WorkSection() {
         </GridItem>
 
         <GridItem className={classes.description} cs={12} sm={12} md={8}>
-          <h4 style={{ color: "black" }}><strong>Contact No : </strong><a style={{ color: "black" }} href="tel:9899844647"><strong>9899844647</strong></a>, <a style={{ color: "black" }} href="tel:9841444447"><strong>9841444447</strong></a></h4>
+          <h4 style={{ color: "black" }}><strong>Contact No : </strong><a style={{ color: "black" }} href="tel:9899844647"><strong>9899844647</strong></a>, <a style={{ color: "black" }} href="tel:9841444447"><strong>9841444447</strong></a>, <a style={{ color: "black" }} href="tel:01292974647"><strong>0129-2974647</strong></a></h4>
         </GridItem>
         <GridItem className={classes.description} cs={12} sm={12} md={8}>
-          <h4 style={{ color: "black" }}><strong>Email : </strong><a style={{ color: "black" }} href="mailto:webmaster@example.com"><strong>webmaster@example.com</strong></a></h4>
+          <h4 style={{ color: "black" }}><strong>Email : </strong><a style={{ color: "black" }} href="mailto:bijjichauhan@gmail.com"><strong>bijjichauhan@gmail.com</strong></a></h4>
         </GridItem>
         <GridItem className={classes.description} cs={12} sm={12} md={8}>
-          <h4 style={{ color: "black" }}><strong>Address : </strong><address style={{ color: "black" }}>
+          <h4 style={{ color: "black" }}><strong>Addresses </strong><address style={{ color: "black" }}>
             <strong>
-            Box 564, Disneyland, USA
+            Head Office: 5B second floor, I Block, Sector 10, OPP. District Court, Faridabad, Haryana, 121006
             </strong>
-            </address></h4>
+            </address>
+            <address style={{ color: "black" }}>
+            <strong>
+            Office: 1130, Sector 2, Faridabad, Haryana
+            </strong>
+            </address>
+            <address style={{ color: "black" }}>
+            <strong>
+            Office: Plot No 26, Dividing Road, Sector 65, Faridabad, Haryana
+            </strong>
+            </address>
+            </h4>
         </GridItem>
       </GridContainer>
     </div>
