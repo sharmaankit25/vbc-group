@@ -2,7 +2,7 @@ import { title } from "../../../nextjs-material-kit";
 
 const productStyle = {
   section: {
-    padding: "70px 0",
+    padding: "20px 5px",
     textAlign: "center",
   },
   title: {
@@ -13,7 +13,8 @@ const productStyle = {
     textDecoration: "none",
   },
   description: {
-    color: "#999",
+    color: "#737373",
+    fontWeight: "500"
   },
 };
 

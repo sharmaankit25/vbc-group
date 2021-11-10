@@ -6,15 +6,16 @@ const workStyle = {
   },
   title: {
     ...title,
-    marginBottom: "50px",
+    marginBottom: "1rem",
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
     textAlign: "center",
   },
   description: {
-    color: "#999",
+    color: "#737373",
     textAlign: "center",
+    fontWeight: "500"
   },
   textCenter: {
     textAlign: "center",

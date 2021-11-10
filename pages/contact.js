@@ -6,6 +6,7 @@ import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 import WorkSection from '../pages-sections/LandingPage-Sections/WorkSection'
 import Parallax from "../components/Parallax/Parallax.js";
+import Head from "next/head";
 
 import styles from "../styles/jss/nextjs-material-kit/pages/profilePage.js";
 
@@ -22,6 +23,10 @@ function ContactPage(props) {
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
         <div>
+            <Head>
+
+          <title>Contact Us - Vbc Group | Building your visions, creating reality. | Vbc Projects | Faridabad | Architects | Interior Design | Construction</title>
+        </Head>
         <Parallax small filter image="/img/bg1.jpg" />
         <div className={classNames(classes.main, classes.mainRaised)}>
             <WorkSection />

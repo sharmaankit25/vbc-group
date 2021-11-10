@@ -5,7 +5,6 @@ import imagesStyle from "../../nextjs-material-kit/imagesStyles";
 const profilePageStyle = {
   container,
   profile: {
-    textAlign: "center",
     "& img": {
       maxWidth: "160px",
       width: "100%",
@@ -15,9 +14,11 @@ const profilePageStyle = {
   },
   description: {
     margin: "1.071rem auto 0",
-    maxWidth: "600px",
-    color: "#999",
+    maxWidth: "840px",
+    color: "#737373",
     textAlign: "center !important",
+    fontWeight: "500",
+    paddingBottom: "1em"
   },
   name: {
     marginTop: "-80px",
@@ -51,7 +52,8 @@ const profilePageStyle = {
     height: "100%",
     lineHeight: "41px",
     fontSize: "20px",
-    color: "#999",
+    color: "#737373",
+    fontWeight: "500"
   },
   navWrapper: {
     margin: "20px auto 50px auto",

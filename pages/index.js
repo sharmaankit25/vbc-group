@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -7,12 +9,9 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 
 // core components
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer.js";
 import GridContainer from "../components/Grid/GridContainer.js";
 import GridItem from "../components/Grid/GridItem.js";
 import Button from "../components/CustomButtons/Button.js";
-import HeaderLinks from "../components/Header/HeaderLinks.js";
 import Parallax from "../components/Parallax/Parallax.js";
 
 
@@ -41,6 +40,16 @@ export default function LandingPage(props) {
                 We are leaders in architects, interior design and construction work.
               </h4>
               <br />
+              <Link href="/projects">
+              <Button
+                color="warning"
+                size="lg"
+                href="/contact"
+                rel="noopener noreferrer"
+              >
+                Lets Discuss
+              </Button>
+              </Link>
             </GridItem>
           </GridContainer>
         </div>
@@ -48,7 +57,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
-          <TeamSection />
+          {/* <TeamSection /> */}
           <WorkSection />
         </div>
       </div>

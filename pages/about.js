@@ -38,7 +38,7 @@ export default function AboutPage(props) {
 					<div className={classes.container}>
 						<h2 className={classes.title}>About Us</h2>
 						<div className={classes.description}>
-							<h3>VISION & MISSION</h3>
+							{/* <h3>VISION & MISSION</h3> */}
 							<p>
 								The VBC Construction Mission is To provide customer satisfaction
 								and create value for stakeholders through professionalism,
