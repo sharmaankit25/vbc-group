@@ -75,7 +75,7 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/" as="/">
-     <img src="/img/logo.jpeg" height={50} width={100} />
+     <img style={{cursor: "pointer"}} src="/img/logo.jpeg" height={50} width={100} />
     </Link>
   );
   return (

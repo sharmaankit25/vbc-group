@@ -2,8 +2,11 @@ import { container, title } from "../../nextjs-material-kit";
 
 import imagesStyle from "../../nextjs-material-kit/imagesStyles";
 
+import modalStyle from "../../nextjs-material-kit/modalStyle";
+
 const profilePageStyle = {
   container,
+  ...modalStyle,
   profile: {
     "& img": {
       maxWidth: "160px",

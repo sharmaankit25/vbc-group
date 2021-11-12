@@ -40,7 +40,7 @@ export default function LandingPage(props) {
                 We are leaders in architects, interior design and construction work.
               </h4>
               <br />
-              <Link href="/projects">
+              <Link href="/contact">
               <Button
                 color="warning"
                 size="lg"
