@@ -55,7 +55,7 @@ export default function ProjectsPage(props) {
 
 	return (
 		<div>
-			<Parallax small filter image="/img/bg1.jpg" />
+			<Parallax small filter image="/img/landing-bg.jpg" />
 			<div className={classNames(classes.main, classes.mainRaised)}>
 				<div className={classes.container}>
 					<h2 className={classes.title}>Projects</h2>
@@ -67,97 +67,540 @@ export default function ProjectsPage(props) {
 						<GridItem xs={12} sm={12} md={4}>
 							<img
 								alt="..."
-								src="/img/portfolio/studio-1.jpg"
+								src="/img/portfolio/1.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/studio-1.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/1.jpg")}
 							/>
 							<img
 								alt="..."
-								src="/img/portfolio/studio-2.jpg"
+								src="/img/portfolio/2.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/studio-2.jpg")}
-							/>
-						</GridItem>
-						<GridItem xs={12} sm={12} md={4}>
-							<img
-								alt="..."
-								src="/img/portfolio/studio-5.jpg"
-								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/studio-5.jpg")}
-							/>
-							<img
-								alt="..."
-								src="/img/portfolio/studio-4.jpg"
-								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/studio-4.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/2.jpg")}
 							/>
 						</GridItem>
 						<GridItem xs={12} sm={12} md={4}>
 							<img
 								alt="..."
-								src="/img/portfolio/olu-eletu.jpg"
+								src="/img/portfolio/3.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/olu-eletu.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/3.jpg")}
 							/>
 							<img
 								alt="..."
-								src="/img/portfolio/clem-onojeghuo.jpg"
+								src="/img/portfolio/4.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/clem-onojeghuo.jpg")}
-							/>
-							<img
-								alt="..."
-								src="/img/portfolio/cynthia-del-rio.jpg"
-								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/cynthia-del-rio.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/4.jpg")}
 							/>
 						</GridItem>
 						<GridItem xs={12} sm={12} md={4}>
 							<img
 								alt="..."
-								src="/img/portfolio/mariya-georgieva.jpg"
+								src="/img/portfolio/5.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/mariya-georgieva.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/5.jpg")}
 							/>
 							<img
 								alt="..."
-								src="/img/portfolio/clem-onojegaw.jpg"
+								src="/img/portfolio/6.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/clem-onojegaw.jpg")}
-							/>
-						</GridItem>
-						<GridItem xs={12} sm={12} md={4}>
-							<img
-								alt="..."
-								src="/img/portfolio/mariya-georgieva.jpg"
-								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/mariya-georgieva.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/6.jpg")}
 							/>
 							<img
 								alt="..."
-								src="/img/portfolio/studio-3.jpg"
+								src="/img/portfolio/7.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/studio-3.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/7.jpg")}
 							/>
 						</GridItem>
 						<GridItem xs={12} sm={12} md={4}>
 							<img
 								alt="..."
-								src="/img/portfolio/clem-onojeghuo.jpg"
+								src="/img/portfolio/8.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/clem-onojeghuo.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/8.jpg")}
 							/>
 							<img
 								alt="..."
-								src="/img/portfolio/olu-eletu.jpg"
+								src="/img/portfolio/9.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/olu-eletu.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/9.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/10.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/10.jpg")}
 							/>
 							<img
 								alt="..."
-								src="/img/portfolio/studio-1.jpg"
+								src="/img/portfolio/11.jpg"
 								className={navImageClasses}
-								onClick={() => toggleImageModal(true, "/img/portfolio/studio-1.jpg")}
+								onClick={() => toggleImageModal(true, "/img/portfolio/11.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/12.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/12.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/13.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/13.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/14.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/14.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/15.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/15.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/16.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/16.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/17.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/17.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/18.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/18.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/19.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/19.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/20.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/20.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/21.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/21.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/22.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/22.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/23.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/23.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/24.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/24.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/25.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/25.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/26.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/26.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/27.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/27.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/28.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/28.jpg")}
+							/>
+						</GridItem>
+
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/29.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/29.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/30.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/30.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/31.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/31.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/32.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/32.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/33.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/33.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/34.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/34.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/35.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/35.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/36.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/36.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/37.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/37.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/38.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/38.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/39.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/39.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/40.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/40.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/41.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/41.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/42.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/42.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/43.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/43.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/44.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/44.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/45.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/45.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/46.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/46.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/47.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/47.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/48.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/48.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/49.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/49.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/50.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/50.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/51.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/51.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/52.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/52.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/53.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/53.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/54.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/54.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/55.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/55.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/56.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/56.jpg")}
+							/>
+						</GridItem>
+
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/57.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/57.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/58.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/58.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/59.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/59.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/60.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/60.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/61.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/61.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/62.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/62.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/63.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/63.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/64.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/64.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/65.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/65.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/66.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/66.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/67.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/67.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/68.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/68.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/69.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/69.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/70.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/70.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/71.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/71.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/72.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/72.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/73.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/73.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/74.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/74.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/75.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/75.jpg")}
+							/>
+						</GridItem>
+
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/76.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/76.jpg")}
+							/>
+							<img
+								alt="..."
+								src="/img/portfolio/77.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/77.jpg")}
+							/>
+						</GridItem>
+						<GridItem xs={12} sm={12} md={4}>
+							<img
+								alt="..."
+								src="/img/portfolio/78.jpg"
+								className={navImageClasses}
+								onClick={() => toggleImageModal(true, "/img/portfolio/78.jpg")}
 							/>
 						</GridItem>
 					</GridContainer>

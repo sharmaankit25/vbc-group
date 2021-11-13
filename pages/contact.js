@@ -27,7 +27,7 @@ function ContactPage(props) {
 
           <title>Contact Us - Vbc Group | Building your visions, creating reality. | Vbc Projects | Faridabad | Architects | Interior Design | Construction</title>
         </Head>
-        <Parallax small filter image="/img/bg1.jpg" />
+        <Parallax small filter image="/img/landing-bg.jpg" />
         <div className={classNames(classes.main, classes.mainRaised)}>
             <WorkSection />
         </div>

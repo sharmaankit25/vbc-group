@@ -32,7 +32,7 @@ export default function AboutPage(props) {
 	const navImageClasses = classNames(classes.imgRounded, classes.imgGallery)
 	return (
 		<div>
-			<Parallax small filter image="/img/bg1.jpg" />
+			<Parallax small filter image="/img/landing-bg.jpg" />
 			<div className={classNames(classes.main, classes.mainRaised)}>
 				<div>
 					<div className={classes.container}>
